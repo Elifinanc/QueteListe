@@ -1,0 +1,19 @@
+using System;
+using System.Collections.Generic;
+
+namespace ExoQueteListe
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<string> stringCollection=new List<string>();
+            stringCollection.Add("monday");
+            stringCollection.Add("tuesday");
+            stringCollection.Add("wednesday");
+            stringCollection.RemoveAt(0);
+            stringCollection.Remove("wednesday");
+            stringCollection[0] = ("sunday");
+        }
+    }
+}
